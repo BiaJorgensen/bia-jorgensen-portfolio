@@ -7,7 +7,7 @@ export default function Portfolio() {
     <div>
       <h2>My Projects</h2>
       {projectList.map(project => (
-        <Project key={project.name} {...project} />
+        <Project key={project.title} {...project} />
       ))}
     </div>
   )

@@ -13,14 +13,14 @@ export default function Resume() {
       <ul>
         {/* Mapping though list to populate all items in the array without repeating <li> */}
         {frontEndList.map(item => (
-           <li>{item}</li> 
+           <li key={item}>{item}</li> 
         ))}
       </ul>
       <h4>Back-End Proficiencies</h4>
       <ul>
         {/* Mapping though list to populate all items in the array without repeating <li> */}
         {backEndList.map(item => (
-           <li>{item}</li> 
+           <li key={item}>{item}</li> 
         ))}
       </ul>
     </div>
