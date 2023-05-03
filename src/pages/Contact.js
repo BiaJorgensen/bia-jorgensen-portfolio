@@ -1,5 +1,6 @@
 import React, {useRef, useState} from 'react'
 import emailjs from '@emailjs/browser';
+import { emailValidation } from '../utils/helpers';
 
 // Code assistance from https://www.emailjs.com/docs/examples/reactjs/
 export default function Contact() {
@@ -32,7 +33,10 @@ export default function Contact() {
         }
         // If user clicks out of one of the form fields with text, removes error message
         else {
-            setErrorMessage('')
+            setErrorMessage('');
+            if (e.target.name === 'user_email' && !emailValidation(e.target.value)) {
+                setErrorMessage('Please enter a valid email')
+            };
         }
     }
   
