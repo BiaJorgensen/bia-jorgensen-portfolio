@@ -15,6 +15,26 @@ export default function Contact() {
     const nameChange = (e) => {setNameInput(e.target.value)};
     const emailChange = (e) => {setEmailInput(e.target.value)};
     const messageChange = (e) => {setMessageInput(e.target.value)};
+
+    // On blur handling
+    const handleBlur = (e) => {
+        // If user clicks out of one of the form fields without entering text, show error message
+        if (e.target.value === '') {
+            if (e.target.name === 'user_name') {
+                setErrorMessage('Please add your name')
+            };
+            if (e.target.name === 'user_email') {
+                setErrorMessage('Please add your email')
+            };
+            if (e.target.name === 'message') {
+                setErrorMessage('Please add a message')
+            }
+        }
+        // If user clicks out of one of the form fields with text, removes error message
+        else {
+            setErrorMessage('')
+        }
+    }
   
     const sendEmail = (e) => {
         e.preventDefault();
@@ -22,7 +42,7 @@ export default function Contact() {
         setNameInput('');
         setEmailInput('');
         setMessageInput('');
-
+        // Email.js Service, Template and User IDs
         emailjs.sendForm('service_ohjj2qc', 'template_wz07h7k', form.current, 'FFCUtIU5y7i-GJuov')
         .then((result) => {
             console.log(result.text);
@@ -36,11 +56,11 @@ export default function Contact() {
     <div>
         <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
-            <input type="text" name="user_name" value={nameInput} onChange={nameChange} required/>
+            <input type="text" name="user_name" value={nameInput} onChange={nameChange} onBlur={handleBlur}/>
             <label>Email address</label>
-            <input type="email" name="user_email" value={emailInput} onChange={emailChange} required/>
+            <input type="email" name="user_email" value={emailInput} onChange={emailChange} onBlur={handleBlur}/>
             <label>Message</label>
-            <input type="text" name="message" value={messageInput} onChange={messageChange} required/>
+            <input type="text" name="message" value={messageInput} onChange={messageChange} onBlur={handleBlur}/>
             <button type="submit">Send</button>
         </form>
         {errorMessage && (
