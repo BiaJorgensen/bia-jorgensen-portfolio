@@ -8,6 +8,8 @@ export default function Contact() {
     const [nameInput, setNameInput] = useState('');
     const [emailInput, setEmailInput] = useState('');
     const [messageInput, setMessageInput] = useState('');
+    // Variable to add error message
+    const [errorMessage, setErrorMessage] = useState('');
 
     // Set input to value that user is adding
     const nameChange = (e) => {setNameInput(e.target.value)};
@@ -31,14 +33,22 @@ export default function Contact() {
     
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" value={nameInput} onChange={nameChange}/>
-        <label>Email address</label>
-        <input type="email" name="user_email" value={emailInput} onChange={emailChange}/>
-        <label>Message</label>
-        <input type="text" name="message" value={messageInput} onChange={messageChange}/>
-        <button type="submit">Send</button>
-    </form>
+    <div>
+        <form ref={form} onSubmit={sendEmail}>
+            <label>Name</label>
+            <input type="text" name="user_name" value={nameInput} onChange={nameChange} required/>
+            <label>Email address</label>
+            <input type="email" name="user_email" value={emailInput} onChange={emailChange} required/>
+            <label>Message</label>
+            <input type="text" name="message" value={messageInput} onChange={messageChange} required/>
+            <button type="submit">Send</button>
+        </form>
+        {errorMessage && (
+            <div>
+            <p>{errorMessage}</p>
+            </div>
+        )}
+    </div>
+    
   )
 }
