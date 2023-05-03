@@ -60,11 +60,11 @@ export default function Contact() {
     <div>
         <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
-            <input type="text" name="user_name" value={nameInput} onChange={nameChange} onBlur={handleBlur}/>
+            <input type="text" name="user_name" value={nameInput} onChange={nameChange} onBlur={handleBlur} required/>
             <label>Email address</label>
-            <input type="email" name="user_email" value={emailInput} onChange={emailChange} onBlur={handleBlur}/>
+            <input type="email" name="user_email" value={emailInput} onChange={emailChange} onBlur={handleBlur} required/>
             <label>Message</label>
-            <input type="text" name="message" value={messageInput} onChange={messageChange} onBlur={handleBlur}/>
+            <input type="text" name="message" value={messageInput} onChange={messageChange} onBlur={handleBlur} required/>
             <button type="submit">Send</button>
         </form>
         {errorMessage && (
