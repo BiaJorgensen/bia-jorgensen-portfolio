@@ -1,0 +1,35 @@
+/* Images with same size and fill the entire card */
+.image {
+    object-fit:fill;
+    height: 15rem;
+    width: 100%;
+}
+
+/* Change image opacity when hovering over it */
+.card:hover .image {
+    filter: opacity(0.15)
+}
+
+/* Initial state of links */
+.links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    opacity: 0;
+    font-size: 30px;
+    color: #0FA3B1;
+    font-weight: bold; 
+}
+
+/* Change links opacity to make them visible when hovering over the image */
+.card:hover .links {
+    opacity: 9;
+}
+
+
