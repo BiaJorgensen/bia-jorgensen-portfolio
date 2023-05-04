@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import Nav from 'react-bootstrap/Nav';
+import NavLink from 'react-bootstrap/NavLink'
 
 export default function Navigation() {
   return (
-    <nav>
-        <ul>
-            <li><Link to="/">About me</Link> </li>
-            <li><Link to="/portfolio">Portfolio</Link> </li>
-            <li><Link to="/contact">Contact</Link> </li>
-            <li><Link to="/resume">Resume</Link> </li>
-        </ul>
-    </nav>
+    <Nav className="ms-auto">
+      <NavLink as={Link} to="/">About me</NavLink>
+      <NavLink as={Link} to="/portfolio">Portfolio</NavLink>
+      <NavLink as={Link} to="/contact">Contact</NavLink>
+      <NavLink as={Link} to="/resume">Resume</NavLink>
+    </Nav>
   )
 }
