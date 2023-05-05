@@ -59,7 +59,7 @@ export default function Contact() {
 
   return (
     <div>
-        <h2 className="my-3">Contact</h2>
+        <h2 className="mt-3 mb-5">Contact</h2>
         <Form ref={form} onSubmit={sendEmail}>
             <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Label>Name</Form.Label>
