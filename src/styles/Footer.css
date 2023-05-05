@@ -1,0 +1,18 @@
+.footer {
+    background: #201E50;
+    padding: 15px;
+    /* Needs this to garantee footer will be at the bottom of page and on entire width of it */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.icon {
+    color: white;
+    font-size: 25px;
+}
+
+.icon:hover {
+    color:#D1345B ;
+}
