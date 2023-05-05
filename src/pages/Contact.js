@@ -1,6 +1,8 @@
 import React, {useRef, useState} from 'react'
 import emailjs from '@emailjs/browser';
 import { emailValidation } from '../utils/helpers';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 // Code assistance from https://www.emailjs.com/docs/examples/reactjs/
 export default function Contact() {
@@ -54,25 +56,33 @@ export default function Contact() {
             console.log(error.text);
         });
     };
-    
 
   return (
     <div>
-        <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input type="text" name="user_name" value={nameInput} onChange={nameChange} onBlur={handleBlur} required/>
-            <label>Email address</label>
-            <input type="email" name="user_email" value={emailInput} onChange={emailChange} onBlur={handleBlur} required/>
-            <label>Message</label>
-            <input type="text" name="message" value={messageInput} onChange={messageChange} onBlur={handleBlur} required/>
-            <button type="submit">Send</button>
-        </form>
+        <h2 className="my-3">Contact</h2>
+        <Form ref={form} onSubmit={sendEmail}>
+            <Form.Group className="mb-3" controlId="formBasicName">
+                <Form.Label>Name</Form.Label>
+                <Form.Control type="text" name="user_name" value={nameInput} onChange={nameChange} onBlur={handleBlur} required/>
+            </Form.Group>
+
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label>Email address</Form.Label>
+                <Form.Control type="email" placeholder="name@example.com" name="user_email" value={emailInput} onChange={emailChange} onBlur={handleBlur} required/>
+            </Form.Group>
+
+            <Form.Group className="mb-3" controlId="formBasicMessage">
+                <Form.Label>Message</Form.Label>
+                <Form.Control as="textarea" rows={3} name="message" value={messageInput} onChange={messageChange} onBlur={handleBlur} required/>
+            </Form.Group>
+
+            <Button variant="outline-info"  type="submit">Send</Button>
+        </Form>
         {errorMessage && (
-            <div>
-            <p>{errorMessage}</p>
+            <div className="mt-3">
+                <p>{errorMessage}</p>
             </div>
         )}
     </div>
-    
   )
 }
