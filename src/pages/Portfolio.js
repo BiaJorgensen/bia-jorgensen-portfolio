@@ -8,10 +8,10 @@ import Col from 'react-bootstrap/Col';
 export default function Portfolio() {
   return (
     <Container>
-      <h2>My Projects</h2>
+      <h2 className="my-3">Portfolio</h2>
       <Row xs={1} sm={2} md={3}>
       {projectList.map(project => (
-        <Col key={project.title} className="mb-3">
+        <Col key={project.title} className="mb-3 ">
         <Project  {...project} />
         </Col>
       ))}

@@ -7,7 +7,7 @@ import { backEndList } from '../helpers/BackEndList';
 export default function Resume() {
   return (
     <div>
-      <h2>Resume</h2>
+      <h2 className="my-3">Resume</h2>
       <h3>Download my <Link to={CV} target="_blank" download>resume</Link></h3>
       <h4>Front-End Proficiencies</h4>
       <ul>
