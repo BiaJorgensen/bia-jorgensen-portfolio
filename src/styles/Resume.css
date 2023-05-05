@@ -1,0 +1,11 @@
+li {
+    list-style-type: circle;
+}
+
+#download {
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 2px double #201E50;
+    margin-bottom: 30px
+}

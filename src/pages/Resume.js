@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 import CV from '../assets/bia-jorgensen-cv.pdf';
 import { frontEndList } from '../helpers/FrontEndList';
 import { backEndList } from '../helpers/BackEndList';
+import '../styles/Resume.css'
 
 export default function Resume() {
   return (
     <div>
-      <h2 className="mt-3 mb-5">Resume</h2>
-      <h3>Download my <Link to={CV} target="_blank" download>resume</Link></h3>
+      <h2 className="my-3">Resume</h2>
+      <h3 id='download'>Download my <Link to={CV} target="_blank" download className="link">resume</Link></h3>
       <h4>Front-End Proficiencies</h4>
       <ul>
         {/* Mapping though list to populate all items in the array without repeating <li> */}
