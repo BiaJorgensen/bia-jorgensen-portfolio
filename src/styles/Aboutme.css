@@ -1,0 +1,7 @@
+/* Makes image stay on the top left side of the page limiting its size*/
+#image {
+  width: auto;
+  max-height: 230px;
+  float: left;
+  margin-right: 1rem;
+}
