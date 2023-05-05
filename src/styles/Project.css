@@ -23,8 +23,7 @@
     align-items: center;
     opacity: 0;
     font-size: 30px;
-    color: #0FA3B1;
-    font-weight: bold; 
+    text-align: center;
 }
 
 /* Change links opacity to make them visible when hovering over the image */
@@ -32,4 +31,11 @@
     opacity: 9;
 }
 
+.link {
+    color: #0FA3B1;
+    text-decoration: none;
+}
 
+.link:hover {
+    color:#D1345B;
+}
