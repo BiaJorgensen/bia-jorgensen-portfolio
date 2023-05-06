@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser';
 import { emailValidation } from '../utils/helpers';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import dotenv from 'dotenv';
+dotenv.config();
 
 // Code assistance from https://www.emailjs.com/docs/examples/reactjs/
 export default function Contact() {
@@ -49,7 +51,7 @@ export default function Contact() {
         setEmailInput('');
         setMessageInput('');
         // Email.js Service, Template and User IDs
-        emailjs.sendForm('service_ohjj2qc', 'template_wz07h7k', form.current, 'FFCUtIU5y7i-GJuov')
+        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE, process.env.REACT_APP_EMAILJS_TEMPLATE, form.current, process.env.REACT_APP_EMAILJS_KEY)
         .then((result) => {
             console.log(result.text);
         }, (error) => {
