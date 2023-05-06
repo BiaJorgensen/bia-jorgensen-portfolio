@@ -7,12 +7,12 @@ import '../styles/Header.css'
 
 export default function Header() {
   return (
-    <Navbar className="header" collapseOnSelect expand="lg" variant="dark">
+    <Navbar className='header' collapseOnSelect expand='lg' variant='dark'>
       <Container>
         {/* Makes 'Bia Jorgensen' clickable and goes back to main page */}
-        <Navbar.Brand as={Link} to="/">Bia Jorgensen</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Brand as={Link} to='/'>Bia Jorgensen</Navbar.Brand>
+        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+        <Navbar.Collapse className= 'text-center' id='responsive-navbar-nav'>
           {/* Component Navigation */}
           <Navigation />
         </Navbar.Collapse>
