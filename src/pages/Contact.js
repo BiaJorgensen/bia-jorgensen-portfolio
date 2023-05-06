@@ -76,13 +76,15 @@ export default function Contact() {
                 <Form.Control as="textarea" rows={3} name="message" value={messageInput} onChange={messageChange} onBlur={handleBlur} required/>
             </Form.Group>
 
-            <Button variant="outline-info"  type="submit">Send</Button>
-        </Form>
-        {errorMessage && (
-            <div className="mt-3">
-                <p>{errorMessage}</p>
+            {errorMessage && (
+            <div style={{ fontSize: '20px' }} className="my-3">
+                <Form.Text>{errorMessage}</Form.Text>
             </div>
         )}
+
+            <Button variant="outline-info"  type="submit">Send</Button>
+        </Form>
+        
     </div>
   )
 }
