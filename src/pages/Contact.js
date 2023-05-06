@@ -82,7 +82,7 @@ export default function Contact() {
             </div>
         )}
 
-            <Button variant="outline-info"  type="submit">Send</Button>
+            <Button className="mb-3" variant="outline-info"  type="submit">Send</Button>
         </Form>
         
     </div>
