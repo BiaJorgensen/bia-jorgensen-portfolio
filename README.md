@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Personal Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+  [Description](#description)<br>
+  [Usage](#usage)<br>
+  [Credits](#credits)<br>
+  [License](#license)<br>
+  [Link to deployed application](#link-to-deployed-application)<br>
+  [Website preview](#website-preview)<br>
+  [Learn More](#learn-more)<br>
+  [Questions](#questions)
 
-## Available Scripts
+## Description
+Personal Portfolio project is a React web application created to showcase some of my personal projects developed as part of challenges from Full Stack Coding Bootcamp at the University of Minnesota.
+<br><br>
+[Back to top](#personal-portfolio-)
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+    1. Open deployed application
+    1. On the About me page, you can read a little bit about me
+    1. Using the navigation Bar:
+        1. Navigate to the Portfolio page to see six of my projects
+            1. Hover over the project's images so you can have access to the links of the deployed application and corresponding Github repositories 
+        1. Navigate to  the Contact page to send me a message
+        1. Navigate to the Resume page to view some of the technologies I am familiar with, and be able to download my resume
+    1. On the footer of the page, click on the GitHub, LinkedIn and Twitter icons to view my personal profile
+<br><br>
+[Back to top](#personal-portfolio-)
+ 
+## Credits
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+University of Minnesota - Full Stack Coding Bootcamp<br>
+[React Bootstrap Documentation](https://react-bootstrap.netlify.app/)<br>
+[W3 schools](https://www.w3schools.com/)<br>
+[MDN Web Docs](https://developer.mozilla.org/en-US/)<br>
+[freeCodeCamp](https://www.freecodecamp.org/)<br>
+[Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)<br>
+[PedroTech](https://www.youtube.com/@PedroTechnologies)<br>
+[Kevin Powell](https://www.youtube.com/@KevinPowell)<br>
+[Dave Gray Teaches Code](https://www.youtube.com/@DaveGrayTeachesCode)<br>
+[Brian Design](https://www.youtube.com/@briandesign)<br>
+[Chaoo Charles](https://www.youtube.com/@ChaooCharles)<br>
+[Coolors](https://coolors.co/)<br>
+[Remove Background](https://www.remove.bg/)
+<br><br>
+[Back to top](#personal-portfolio-)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## License
 
-### `npm test`
+The license for this project is **The MIT License**<br>
+To learn more about this license, please access https://opensource.org/licenses/MIT
+<br><br>
+[Back to top](#personal-portfolio-)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Link to deployed application
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br><br>
+[Back to top](#personal-portfolio-)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Website preview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<kbd>![personal-portfolio-Homepage](./assets/screenshots/main-page.JPG)</kbd><br>
+<kbd>![personal-portfolio-Portfolio](./assets/screenshots/portfolio-page.JPG)</kbd><br>
+<kbd>![personal-portfolio-Contact](./assets/screenshots/contact-page.JPG)</kbd><br>
+<kbd>![personal-portfolio-Resume](./assets/screenshots/resume-page.JPG)</kbd><br>
+<br><br>
+[Back to top](#personal-portfolio-)
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
 To learn React, check out the [React documentation](https://reactjs.org/).
+<br><br>
+[Back to top](#personal-portfolio-)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+Visit my GitHub profile page: https://github.com/BiaJorgensen<br>
+If you have additional questions, please send an email to souzabeatriz17@gmail.com
+<br><br>
+[Back to top](#personal-portfolio-)
