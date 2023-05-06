@@ -1,0 +1,30 @@
+a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+/* Change color of selected link in navbar */
+.active {
+    color: #201E50;
+}
+/* Color of non-selected link in navbar */
+.not-active {
+    color: rgba(255, 255, 255, 0.55);
+}
+/* All links in navbar have the styling below */
+.not-active, .active {
+    display: block;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.not-active:hover, .active:hover {
+    color: #201E50;
+}
+/* No cursor to give the impression the link already selectec cannot be selected again */
+.active:hover {
+    cursor: none;
+}
+
+
+
