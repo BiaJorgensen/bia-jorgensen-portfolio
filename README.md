@@ -17,14 +17,14 @@ Personal Portfolio project is a React web application created to showcase some o
 
 ## Usage
 
-    1. Open deployed application
-    1. On the About me page, you can read a little bit about me
-    1. Using the navigation Bar:
-        1. Navigate to the Portfolio page to see six of my projects
-            1. Hover over the project's images so you can have access to the links of the deployed application and corresponding Github repositories 
-        1. Navigate to  the Contact page to send me a message
-        1. Navigate to the Resume page to view some of the technologies I am familiar with, and be able to download my resume
-    1. On the footer of the page, click on the GitHub, LinkedIn and Twitter icons to view my personal profile
+1. Open deployed application
+1. On the About me page, you can read a little bit about me
+1. Using the navigation Bar:
+    * Navigate to the Portfolio page to see six of my projects
+        * Hover over the project's images so you can have access to the links of the deployed application and corresponding Github repositories 
+    * Navigate to  the Contact page to send me a message
+    * Navigate to the Resume page to view some of the technologies I am familiar with, and be able to download my resume
+1. On the footer of the page, click on the GitHub, LinkedIn and Twitter icons to view my personal profile
 <br><br>
 [Back to top](#personal-portfolio-)
  
