@@ -16,10 +16,19 @@ export default function Contact() {
     // Variable to add error message
     const [errorMessage, setErrorMessage] = useState('');
 
-    // Set input to value that user is adding
-    const nameChange = (e) => {setNameInput(e.target.value)};
-    const emailChange = (e) => {setEmailInput(e.target.value)};
-    const messageChange = (e) => {setMessageInput(e.target.value)};
+    // Set input to value that user is adding and removes error message
+    const nameChange = (e) => {
+        setNameInput(e.target.value)
+        setErrorMessage('')
+    };
+    const emailChange = (e) => {
+        setEmailInput(e.target.value) 
+        setErrorMessage('')
+    };
+    const messageChange = (e) => {
+        setMessageInput(e.target.value)
+        setErrorMessage('')
+    };
 
     // On blur handling
     const handleBlur = (e) => {
@@ -50,11 +59,18 @@ export default function Contact() {
         setNameInput('');
         setEmailInput('');
         setMessageInput('');
+        setErrorMessage('');
         // Email.js Service, Template and User IDs
-        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE, process.env.REACT_APP_EMAILJS_TEMPLATE, form.current, process.env.REACT_APP_EMAILJS_KEY)
+        emailjs.sendForm(
+            process.env.REACT_APP_EMAILJS_SERVICE,
+            process.env.REACT_APP_EMAILJS_TEMPLATE,
+            form.current,
+            process.env.REACT_APP_EMAILJS_KEY)
         .then((result) => {
+            alert('Thank you for contacting me!')
             console.log(result.text);
         }, (error) => {
+            alert('I am sorry, your message was not sent. Please try again.')
             console.log(error.text);
         });
     };
