@@ -12,8 +12,6 @@
 
 ## Description
 Personal Portfolio project is a React web application created to showcase some of my personal projects developed as part of challenges from Full Stack Coding Bootcamp at the University of Minnesota.
-<br><br>
-[Back to top](#personal-portfolio-)
 
 ## Usage
 
@@ -25,8 +23,6 @@ Personal Portfolio project is a React web application created to showcase some o
     * Navigate to  the Contact page to send me a message
     * Navigate to the Resume page to view some of the technologies I am familiar with, and be able to download my resume
 1. On the footer of the page, click on the GitHub, LinkedIn and Twitter icons to view my personal profile
-<br><br>
-[Back to top](#personal-portfolio-)
  
 ## Credits
 
@@ -42,7 +38,8 @@ University of Minnesota - Full Stack Coding Bootcamp<br>
 [Brian Design](https://www.youtube.com/@briandesign)<br>
 [Chaoo Charles](https://www.youtube.com/@ChaooCharles)<br>
 [Coolors](https://coolors.co/)<br>
-[Remove Background](https://www.remove.bg/)
+[Remove Background](https://www.remove.bg/)<br>
+[Favicon.io](https://favicon.io/)
 <br><br>
 [Back to top](#personal-portfolio-)
 
@@ -55,6 +52,7 @@ To learn more about this license, please access https://opensource.org/licenses/
 
 ## Link to deployed application
 
+https://biajorgensen.github.io/bia-jorgensen-portfolio/
 
 <br><br>
 [Back to top](#personal-portfolio-)
