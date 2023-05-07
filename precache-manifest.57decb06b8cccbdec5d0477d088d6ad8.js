@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e2c69711b040626361dc",
-    "url": "/bia-jorgensen-portfolio/static/css/main.a5c234c1.chunk.css"
+    "revision": "c7ffdd276f2aca1bbed5",
+    "url": "/bia-jorgensen-portfolio/static/css/main.ad2815de.chunk.css"
   },
   {
-    "revision": "e2c69711b040626361dc",
-    "url": "/bia-jorgensen-portfolio/static/js/main.e2c69711.chunk.js"
+    "revision": "c7ffdd276f2aca1bbed5",
+    "url": "/bia-jorgensen-portfolio/static/js/main.c7ffdd27.chunk.js"
   },
   {
     "revision": "89f8c12492339e6065e3",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/bia-jorgensen-portfolio/static/media/bia-jorgensen-cv.a6e02958.pdf"
   },
   {
-    "revision": "c9767622a92abdded5bd085da0ab406e",
+    "revision": "847674206459e76b2da14bdb8676aef9",
     "url": "/bia-jorgensen-portfolio/index.html"
   }
 ];
