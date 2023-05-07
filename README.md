@@ -53,7 +53,6 @@ To learn more about this license, please access https://opensource.org/licenses/
 ## Link to deployed application
 
 https://biajorgensen.github.io/bia-jorgensen-portfolio/
-
 <br><br>
 [Back to top](#personal-portfolio-)
 
