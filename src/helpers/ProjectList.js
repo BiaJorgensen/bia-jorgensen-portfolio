@@ -1,3 +1,4 @@
+import LocalHarvest from '../assets/images/local-harvest.JPG'
 import Scheduler from '../assets/images/scheduler-logo.png';
 import EventFinder from '../assets/images/event-finder.PNG';
 import WeatherApp from '../assets/images/weather-app.PNG';
@@ -7,6 +8,12 @@ import Quiz from '../assets/images/quiz.PNG';
 
 
 export const projectList = [
+    {
+        title: 'Local Harvest',
+        image: LocalHarvest,
+        deployedApp: 'https://bia-jorgensen-local-harvest.herokuapp.com/#/',
+        githubRepo: 'https://github.com/BiaJorgensen/local-harvest'
+    },
     {
         title: 'Takepoint Dentistry',
         image: Scheduler,
