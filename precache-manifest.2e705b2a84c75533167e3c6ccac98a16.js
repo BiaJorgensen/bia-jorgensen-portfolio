@@ -1,31 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "c7ffdd276f2aca1bbed5",
-    "url": "/bia-jorgensen-portfolio/static/css/main.ad2815de.chunk.css"
+    "revision": "0471eb5355bfb756f1a5",
+    "url": "/bia-jorgensen-portfolio/static/css/main.39f6d678.chunk.css"
   },
   {
-    "revision": "c7ffdd276f2aca1bbed5",
-    "url": "/bia-jorgensen-portfolio/static/js/main.c7ffdd27.chunk.js"
+    "revision": "0471eb5355bfb756f1a5",
+    "url": "/bia-jorgensen-portfolio/static/js/main.0471eb53.chunk.js"
   },
   {
-    "revision": "89f8c12492339e6065e3",
-    "url": "/bia-jorgensen-portfolio/static/js/1.89f8c124.chunk.js"
+    "revision": "46c3c26490a9244cbd4e",
+    "url": "/bia-jorgensen-portfolio/static/js/1.46c3c264.chunk.js"
   },
   {
-    "revision": "6236fad9d9c7521959ba",
-    "url": "/bia-jorgensen-portfolio/static/css/2.3ba4f36f.chunk.css"
+    "revision": "28bd0b98803e60babdb8",
+    "url": "/bia-jorgensen-portfolio/static/css/2.86ec14d7.chunk.css"
   },
   {
-    "revision": "6236fad9d9c7521959ba",
-    "url": "/bia-jorgensen-portfolio/static/js/2.6236fad9.chunk.js"
+    "revision": "28bd0b98803e60babdb8",
+    "url": "/bia-jorgensen-portfolio/static/js/2.28bd0b98.chunk.js"
   },
   {
-    "revision": "5349676f0721cabf346b",
-    "url": "/bia-jorgensen-portfolio/static/js/runtime~main.5349676f.js"
+    "revision": "60ce3fe274521aacaffc",
+    "url": "/bia-jorgensen-portfolio/static/js/runtime~main.60ce3fe2.js"
   },
   {
     "revision": "e568898789ecffe52495a642ec8e7d2e",
     "url": "/bia-jorgensen-portfolio/static/media/bia-jorgensen.e5688987.png"
+  },
+  {
+    "revision": "8ac3a175c24c06c87b177f9978d156f1",
+    "url": "/bia-jorgensen-portfolio/static/media/local-harvest.8ac3a175.JPG"
   },
   {
     "revision": "2d643c42798b29faed336ed024261b8f",
@@ -56,7 +60,7 @@ self.__precacheManifest = [
     "url": "/bia-jorgensen-portfolio/static/media/bia-jorgensen-cv.a6e02958.pdf"
   },
   {
-    "revision": "847674206459e76b2da14bdb8676aef9",
+    "revision": "f0a6415f573a92d255978d6b13d2c33b",
     "url": "/bia-jorgensen-portfolio/index.html"
   }
 ];
