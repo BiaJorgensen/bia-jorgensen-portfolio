@@ -7,35 +7,50 @@
 
 /* Change image opacity when hovering over it */
 .card:hover .image {
-    filter: opacity(0.15)
+    filter: opacity(0.1)
 }
 
-/* Initial state of links */
-.links {
+/* Center Card.Text */
+.info {
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center; 
+}
+
+/* Card.Text = p and is initially 20px */
+.info p {
+    font-size: 17px;
+}
+
+/* Makes info and links to initially be 'hidden' and taking the same space as the image */
+.info, .links {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: flex-end;
     opacity: 0;
-    font-size: 20px;
-    text-align: center;
 }
 
-/* Change links opacity to make them visible when hovering over the image */
-.card:hover .links {
+/* Change info and links opacity to make them visible when hovering over the image */
+.card:hover .info, .card:hover .links {
     opacity: 9;
+}
+
+/* Center links and add them to bottom of card*/
+.links {
+    justify-content:center;
+    align-items: flex-end;
 }
 
 .link {
     color: #0FA3B1;
     text-decoration: none;
+    font-size: 20px;
 }
 
-.link:hover {
+.link:hover, .info{
     color:#D1345B;
 }
