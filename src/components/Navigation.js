@@ -11,7 +11,7 @@ export default function Navigation() {
       }}>About me</NavLink>
       <NavLink to="/portfolio" tabIndex="0" className={({ isActive }) => {
         return (isActive ? 'active' : 'not-active')
-      }}>Portfolio</NavLink>
+      }}>Projects</NavLink>
       <NavLink to="/contact" tabIndex="0" className={({ isActive }) => {
         return (isActive ? 'active' : 'not-active')
       }}>Contact</NavLink>
