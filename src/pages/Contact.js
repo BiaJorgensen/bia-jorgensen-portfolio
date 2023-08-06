@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import { emailValidation } from '../utils/helpers';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import '../styles/Contact.css'
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -77,7 +78,8 @@ export default function Contact() {
 
   return (
     <div>
-        <h2 className="mt-3 mb-5">Contact</h2>
+        <h2 className="mt-3">Contact</h2>
+        <h3 className="mt-3 mb-5" id='contact'>Please use the form below to contact me, or feel free to email me directly at<a href="mailto:souzabeatriz17@gmail.com">souzabeatriz17@gmail.com</a></h3>
         <Form ref={form} onSubmit={sendEmail}>
             <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Label>Name</Form.Label>
