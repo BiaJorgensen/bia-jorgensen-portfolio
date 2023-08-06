@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bia-jorgensen-portfolio/precache-manifest.a8d3ba5649b0f3b1d5f58bd519e3f458.js"
+  "/bia-jorgensen-portfolio/precache-manifest.371f316ed78fd33a2049d2bf344b419b.js"
 );
 
 workbox.clientsClaim();
